@@ -1,5 +1,7 @@
 // قائمة الـ IDs المقبولة (تأكد أنها 10 أرقام)
-const ALLOWED_IDS = ["1234567890", "1122334455", "9988776655"]; 
+const ALLOWED_IDS = [
+    "1111122222",
+]; 
 
 const btn = document.getElementById('check-btn');
 const input = document.getElementById('user-id');
@@ -30,4 +32,5 @@ btn.addEventListener('click', () => {
             msg.style.color = "red";
         }
     }, 3000);
+
 });
