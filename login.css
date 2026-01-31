@@ -1,0 +1,17 @@
+body { background: #050505; color: white; font-family: 'Cairo', sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+
+.back-btn { position: absolute; top: 20px; left: 20px; color: #ff7700; text-decoration: none; font-weight: bold; transition: 0.3s; }
+.back-btn:hover { color: #ff7700; }
+
+.login-box { background: #121212; padding: 40px; border-radius: 20px; text-align: center; width: 90%; max-width: 400px; border: 1px solid #333; box-shadow: 0 10px 40px rgba(0,0,0,0.5); }
+.login-box h2 { color: #ff7700; margin-bottom: 10px; }
+input { width: 90%; padding: 20px; margin: 20px 0; background: #222; border: 1px solid #444; color: #ff7700; font-size: 1.2rem; text-align: center; border-radius: 10px; outline: none; }
+input:focus { border-color: #ff7700; }
+button { width: 100%; padding: 15px; background: #ff7700; border: none; font-weight: bold; border-radius: 10px; cursor: pointer; transition: 0.3s; font-size: 1.4rem; }
+button:hover { background: #fff; }
+
+/* Modal Styling */
+.modal { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.9); z-index: 1000; align-items: center; justify-content: center; }
+.modal-content { text-align: center; color: white; }
+.spinner { width: 50px; height: 50px; border: 5px solid #333; border-top: 5px solid #ff7700; border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 20px; }
+@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }

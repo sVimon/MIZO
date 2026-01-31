@@ -1,0 +1,25 @@
+:root { --gold: #ff7700; --black: #050505; --dark: #121212; --text: #ffffff; }
+
+body { margin: 0; font-family: 'Cairo', sans-serif; background: var(--black); color: var(--text); overflow-x: hidden; }
+
+.navbar { padding: 30px; text-align: center; border-bottom: 1px solid #222; background: rgba(0,0,0,0.8); backdrop-filter: blur(10px); }
+.logo { font-size: 2rem; font-weight: 900; letter-spacing: 2px; }
+.logo span { color: var(--gold); }
+
+.hero-section { display: flex; flex-direction: column; align-items: center; text-align: center; padding:  10px; min-height: 50vh; justify-content: center; }
+.gold-text { color: var(--gold); }
+.hero-content h1 { font-size: 2.5rem; margin-bottom: 10px; }
+.hero-content p { color: #aaa; max-width: 500px; margin: 0 auto 30px; }
+
+.cta-btn { background: var(--gold); color: black; padding: 20px 100px; text-decoration: none; font-weight: bold; border-radius: 40px; transition: 0.3s; box-shadow: 0 0 10px rgb(255, 196, 0); }
+.cta-btn:hover { transform: scale(1.05); background: #fff; }
+
+.floating-cup { font-size: 6rem; animation: float 3s ease-in-out infinite; margin-top: 40px; text-shadow: 0 0 30px var(--gold); }
+@keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-20px); } }
+
+.features { padding: 20px 20px; background: var(--dark); text-align: center; }
+.cards-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin-top: 20px; }
+.card { background: #1e1e1e; padding: 25px; border-radius: 40px; width: 1000px; border:5px solid #333; transition: 0.3s; }
+.card:hover { border-color: var(--gold); transform: translateY(-5px); }
+.icon { font-size: 2.5rem; margin-bottom: 1px; }
+footer { padding: 20px; text-align: center; font-size: 0.8rem; color: #555; border-top: 1px solid #222; }

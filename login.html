@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIZO | تسجيل الدخول</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <a href="index.html" class="back-btn">← الرجوع</a>
+
+    <div class="login-container">
+        <div class="login-box">
+            <h2> MIZO </h2>
+            <p>   أدخل ال ID الخاص بحسابك على LINEBET  </p>
+            
+            <input type="number" id="user-id" placeholder="XXXXXXXXXX">
+            <button id="check-btn">تحقق واتصال</button>
+            
+            <p id="msg-box"></p>
+        </div>
+    </div>
+
+    <div id="loading-modal" class="modal">
+        <div class="modal-content">
+            <div class="spinner"></div>
+            <h3>جاري الاتصال بالخادم...</h3>
+            <p>يتم التحقق من صلاحية الـ ID في قاعدة البيانات</p>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
