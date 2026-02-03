@@ -2,6 +2,7 @@
 const ALLOWED_IDS = [
     "1111122222",
     "1822828838",
+    "1344556675",
 ]; 
 
 const btn = document.getElementById('check-btn');
@@ -35,4 +36,5 @@ btn.addEventListener('click', () => {
     }, 3000);
 
 });
+
 
