@@ -6,6 +6,7 @@ const ALLOWED_IDS = [
     "0000000000",
     "1553696781",
     "1918771800",
+    "1553693811",
 ]; 
 
 const btn = document.getElementById('check-btn');
@@ -39,6 +40,7 @@ btn.addEventListener('click', () => {
     }, 3000);
 
 });
+
 
 
 
